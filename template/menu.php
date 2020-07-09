@@ -24,7 +24,7 @@
             <li class="nav-item  dropdown transparent">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Program Pendidikan</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="link_macth.html">LINK AND MACTH</a>
+                    <a class="dropdown-item" href="link_macth.html">LINK AND MATCH</a>
                     <a class="dropdown-item" href="sistempendidikan.html">SISTEM PENDIDIKAN</a>
                     <a class="dropdown-item" href="polapendidikan.html">POLA PENDIDIKAN</a>
                 </div>
