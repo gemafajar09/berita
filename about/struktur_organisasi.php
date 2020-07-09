@@ -1,10 +1,11 @@
-<section >
-	<div class="container">
+
+<section class="content py-3">
+	<div class="container py-3">
 		<div class="row">
 			<div class="col-md-8">
 				<div class="card">
 					<div class="card-body">
-						<h6>STRUKTUR ORGANISASI</H6><hr class="border-warning">
+						<h6 style="color:grey">STRUKTUR ORGANISASI</H6><hr class="border-warning">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

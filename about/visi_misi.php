@@ -1,4 +1,4 @@
-<section>
+<section class="content py-3">
 	<div class="container py-3">
 		<div class="row">
 			<div class="col-md-8">
@@ -6,7 +6,7 @@
 					<div class="card-body">
 						<H5>VISI DAN MISI</H5><hr class="border-warning">
 						<P>
-							<h6>VISI</h6>	<br>
+							<h6 style="color:grey">VISI</h6>	<br>
 
 								<p>
 								Pada tahun 2031 di tingkat asia menjadi institusi pendidikan tinggi vokasional yang mampu
@@ -28,7 +28,7 @@
 								jenjang pendidikan vokasional<br>
 								</p>
 
-							<h6>MISI</h6>	<br>
+							<h6 style="color:grey">MISI</h6>	<br>
 
 								<p>
 								1. Menyelenggarakan pendidikan yang berpusat pada peserta didik, menggunakan pendekatan link and match serta mengoptimalkan pemamfaatan teknologi.<br>
