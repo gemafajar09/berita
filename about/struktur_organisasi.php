@@ -1,5 +1,5 @@
-<section>
-	<div class="container py-3">
+<section >
+	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
 				<div class="card">
@@ -18,31 +18,7 @@
 				
 			</div>
 			<div class="col-md-4">
-				<div class="card">
-					<div class="card-body">
-						<h6>AKREDITASI KAMPUS</H6><hr class="border-warning">
-							
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-body">
-						<h6>KATEGORI</H6><hr class="border-warning">
-							<a href="">CNP</a><br>
-							<a href="">test</a>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-body">
-						<h6>AKREDITASI KAMPUS</H6><hr class="border-warning"> 
-							
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-body">
-						<h6>TENTANG LP3I</H6><hr class="border-warning">
-							
-					</div>
-				</div>
+				<?php include "navigator.php" ?>
 			</div>
 		</div>
 	</div>
