@@ -4,7 +4,7 @@
 			<div class="col-md-8">
 				<div class="card">
 					<div class="card-body">
-						<h6>SEJARAH SINGKAT</H6><hr class="border-warning">
+						<h6>FASILITAS</H6><hr class="border-warning">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -18,31 +18,6 @@
 				
 			</div>
 			<div class="col-md-4">
-				<div class="card">
-					<div class="card-body">
-						<h6>AKREDITASI KAMPUS</H6><hr class="border-warning">
-							
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-body">
-						<h6>KATEGORI</H6><hr class="border-warning">
-							<a href="">CNP</a><br>
-							<a href="">test</a>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-body">
-						<h6>AKREDITASI KAMPUS</H6><hr class="border-warning">
-							
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-body">
-						<h6>TENTANG LP3I</H6><hr class="border-warning">
-							
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>

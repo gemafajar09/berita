@@ -14,15 +14,15 @@
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="?page=about/sejarah_singkat">SEJARAH SINGKAT</a>
-                    <a class="dropdown-item" href="#">VISI & MISI</a>
-                    <a class="dropdown-item" href="#">FASILITAS</a>
-                    <a class="dropdown-item" href="#">STRUKTUR ORGANISASI</a>
+                    <a class="dropdown-item" href="?page=about/visi_misi">VISI & MISI</a>
+                    <a class="dropdown-item" href="?page=about/fasilitas">FASILITAS</a>
+                    <a class="dropdown-item" href="?page=about/struktur_organisasi">STRUKTUR ORGANISASI</a>
                 </div>
             </li>
             <li class="nav-item  dropdown transparent">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Program Pendidikan</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">LINK AND MACTH</a>
+                    <a class="dropdown-item" href="?page=programpendidikan/link_macth">LINK AND MACTH</a>
                     <a class="dropdown-item" href="#">SISTEM PENDIDIKAN</a>
                     <a class="dropdown-item" href="#">POLA PENDIDIKAN</a>
                 </div>
