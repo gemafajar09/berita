@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item  dropdown transparent">
-            <a class="nav-link" href="">Beranda</a>
+            <a class="nav-link" href="index.php">Beranda</a>
             </li>
             <li class="nav-item  dropdown transparent">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
