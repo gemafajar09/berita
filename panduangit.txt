@@ -1,0 +1,8 @@
+git branch "buat nama branch sendiri"
+git checkout "masukan nama branch yang tadi dibuat"
+git add .
+git commit -m "buat nama comit sesuka hati anda"
+git push origin "nama branch yang anda buat tadi"
+
+git checkout master 
+git pull
