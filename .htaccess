@@ -1,0 +1,10 @@
+RewriteEngine on
+ErrorDocument 403 /berita/error/page_403.php
+ErrorDocument 404 /berita/error/page_404.php
+ErrorDocument 500 /berita/error/page_500.php
+
+RewriteRule ^home\.html$ index.php [L]
+RewriteRule ^sejarah_singkat\.html$ index.php?page=about/sejarah_singkat [L]
+RewriteRule ^visi_misi\.html$ index.php?page=about/visi_misi [L]
+RewriteRule ^fasilitas\.html$ index.php?page=about/fasilitas [L]
+RewriteRule ^struktur_organisasi\.html$ index.php?page=about/struktur_organisasi [L]

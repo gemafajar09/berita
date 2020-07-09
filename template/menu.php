@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Politekni LP3I Padang</a>
+        <a class="navbar-brand" href="index.php">Politekni LP3I Padang</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -13,10 +13,10 @@
             <li class="nav-item  dropdown transparent">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="?page=about/sejarah_singkat">SEJARAH SINGKAT</a>
-                    <a class="dropdown-item" href="?page=about/visi_misi">VISI & MISI</a>
-                    <a class="dropdown-item" href="?page=about/fasilitas">FASILITAS</a>
-                    <a class="dropdown-item" href="?page=about/struktur_organisasi">STRUKTUR ORGANISASI</a>
+                    <a class="dropdown-item" href="sejarah_singkat.html">SEJARAH SINGKAT</a>
+                    <a class="dropdown-item" href="visi_misi.html">VISI & MISI</a>
+                    <a class="dropdown-item" href="fasilitas.html">FASILITAS</a>
+                    <a class="dropdown-item" href="struktur_organisasi.html">STRUKTUR ORGANISASI</a>
                 </div>
             </li>
             <li class="nav-item  dropdown transparent">

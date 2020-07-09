@@ -1,4 +1,4 @@
-<section>
+<section class="content py-3">
 	<div class="container py-3">
 		<div class="row">
 			<div class="col-md-8">
@@ -6,7 +6,7 @@
 					<div class="card-body">
 						<H5>VISI DAN MISI</H5><hr class="border-warning">
 						<P>
-							<h6>VISI</h6>	<br>
+							<h6 style="color:grey">VISI</h6>	<br>
 
 								<p>
 								Pada tahun 2031 di tingkat asia menjadi institusi pendidikan tinggi vokasional yang mampu
@@ -28,7 +28,7 @@
 								jenjang pendidikan vokasional<br>
 								</p>
 
-							<h6>MISI</h6>	<br>
+							<h6 style="color:grey">MISI</h6>	<br>
 
 								<p>
 								1. Menyelenggarakan pendidikan yang berpusat pada peserta didik, menggunakan pendekatan link and match serta mengoptimalkan pemamfaatan teknologi.<br>
@@ -70,26 +70,26 @@
 			<div class="col-md-4">
 				<div class="card">
 					<div class="card-body">
-						<h6>AKREDITASI KAMPUS</H6><hr class="border-warning">
+						<h6 style="color:grey">AKREDITASI KAMPUS</H6><hr class="border-warning">
 							
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<h6>KATEGORI</H6><hr class="border-warning">
+						<h6 style="color:grey">KATEGORI</H6><hr class="border-warning">
 							<a href="">CNP</a><br>
 							<a href="">test</a>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<h6>AKREDITASI KAMPUS</H6><hr class="border-warning">
+						<h6 style="color:grey">AKREDITASI KAMPUS</H6><hr class="border-warning">
 							
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<h6>TENTANG LP3I</H6><hr class="border-warning">
+						<h6 style="color:grey">TENTANG LP3I</H6><hr class="border-warning">
 							
 					</div>
 				</div>
