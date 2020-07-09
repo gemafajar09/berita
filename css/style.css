@@ -1,12 +1,16 @@
-/*!
- * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Lato';
+  background:url('../image/bg/4009040.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+@media only screen and (min-width: 1440px) {
+  /* styles for MacBook Pro-sized screens and larger */
 }
+
 
 h1,
 h2,
@@ -59,7 +63,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -83,7 +87,8 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background-color: transparent;
+  /* background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%); */
 }
 
 header.masthead .bg-circle-1 {
