@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-header">
-        <h6 style="color:grey">AKREDITASI KAMPUS</H6>
+        <h6 style="color:grey">AKREDITASI KAMPUS</h6>
     </div>
     <div class="card-body">
             <p>
@@ -29,7 +29,7 @@
 <br>
 <div class="card">
     <div class="card-header">
-        <h6 style="color:grey">TENTANG LP3I</H6>
+        <h6 style="color:grey">TENTANG LP3I</h6>
     </div>
     <div class="card-body">
             

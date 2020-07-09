@@ -4,7 +4,7 @@
 			<dir class="col-md-8">
 				<div class="card">
 					<div class="card-body">
-						<h6>ADMINISTRASI BISNIS</H6><hr class="border-warning">
+						<h6>ADMINISTRASI BISNIS</h6><hr class="border-warning">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
