@@ -41,18 +41,21 @@
 </section>
 
 <section style="background-color:white">
-    <div class="container-fluit py-3">
+    <div class="container py-5">
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <center>
-                            <h3>Tentang Kami</h3>
-                        </center>
-                        <hr>
+                <center>
+                    <h3>Tentang Kami</h3>
+                </center>
+                <hr>
+                <div class="row">
+                    <div class="col-md-8">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, est odit voluptate possimus eius eos sint necessitatibus vitae libero. Expedita, quas incidunt? In consectetur totam perspiciatis, animi ipsum sapiente omnis.
                         </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="<?= $url ?>image/bg/1000.jpg" style="width:50%" class="rounded-circle" alt="Politeknik LP3i">
                     </div>
                 </div>
             </div>
@@ -60,37 +63,90 @@
     </div>
 </section>
 
-<section id="studi" class="py-2">
-    <div class="card" style="background-color:transparent">
-        <div class="card-body">
-            <center><h5 style="color:white">Program Studi Politeknik LP3i Padang</h5></center>
-            <hr style="background-color:yelow">
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
-                </div>
-                <div class="col-md-4 text-center">
-                    <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
-                </div>
-                <div class="col-md-4 text-center">
-                    <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+<section class="py-2">
+    <div class="container" style="background-color:transparent">
+        <div class="row">
+            <div class="col-md-12">
+                <center><h5 style="color:#0D3C55">Program Studi Politeknik LP3i Padang</h5></center>
+                <hr style="background-color:yelow">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <a href="">
+                            <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                        </a>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a href="">
+                            <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                        </a>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a href="">
+                            <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section>
-    <div class="container-fluit py-2">
-        <div class="card">
-            <div class="card-body">
+<section class="py-5" style="background-color:white">
+    <div class="container py-2">
+        <div class="row">
+            <div class="col-md-12">
                 <div class="text-center">
                     <h4>Testimoni</h4>
                     <hr>
                 </div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo itaque numquam iure ducimus, dolorem quos eaque perferendis placeat tempore culpa. Dolores incidunt laudantium eius maxime consequatur reiciendis illo fugiat ab?
-                </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <center>
+                            <img src="<?= $url ?>image/test.jpg" alt="" style="width:150px" class="rounded-circle"><br>
+                            <p><b>Nama</b></p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia inventore voluptas nostrum voluptate aspernatur sed quisquam mollitia? Nulla, libero! Similique animi esse deserunt fuga inventore officiis facere quasi voluptas minus?</p>
+                        </center>
+                    </div>
+                    <div class="col-md-4">
+                        <center>
+                            <img src="<?= $url ?>image/test.jpg" alt="" style="width:150px" class="rounded-circle"><br>
+                            <p><b>Nama</b></p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia inventore voluptas nostrum voluptate aspernatur sed quisquam mollitia? Nulla, libero! Similique animi esse deserunt fuga inventore officiis facere quasi voluptas minus?</p>
+                        </center>
+                    </div>
+                    <div class="col-md-4">
+                        <center>
+                            <img src="<?= $url ?>image/test.jpg" alt="" style="width:150px" class="rounded-circle"><br>
+                            <p><b>Nama</b></p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia inventore voluptas nostrum voluptate aspernatur sed quisquam mollitia? Nulla, libero! Similique animi esse deserunt fuga inventore officiis facere quasi voluptas minus?</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color:white" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                        <center>
+                            <h3>Berita Terbaru</h3>
+                        </center>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, est odit voluptate possimus eius eos sint necessitatibus vitae libero. Expedita, quas incidunt? In consectetur totam perspiciatis, animi ipsum sapiente omnis.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="<?= $url ?>image/bg/1000.jpg" style="width:50%" class="rounded-circle" alt="Politeknik LP3i">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

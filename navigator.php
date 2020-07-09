@@ -8,6 +8,7 @@
             </p>
     </div>
 </div>
+<br>
 <div class="card">
     <div class="card-header">
         <h6 style="color:grey">KATEGORI</h6>
@@ -16,6 +17,7 @@
             <a href="">CNP</a>
     </div>
 </div>
+<br>
 <div class="card">
     <div class="card-header">
         <h6 style="color:grey">AKREDITASI KAMPUS</h6>
@@ -24,9 +26,10 @@
             
     </div>
 </div>
+<br>
 <div class="card">
     <div class="card-header">
-        <h6 style="color:grey">TENTANG LP3I</H6><hr>
+        <h6 style="color:grey">TENTANG LP3I</H6>
     </div>
     <div class="card-body">
             
