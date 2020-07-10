@@ -4,6 +4,10 @@ ErrorDocument 404 /berita/error/page_404.php
 ErrorDocument 500 /berita/error/page_500.php
 
 RewriteRule ^home\.html$ index.php [L]
+RewriteRule ^auth\.html$ admin/index.php [L]
+RewriteRule ^auth_regis\.html$ admin/register.php [L]
+RewriteRule ^halaman\.html$ admin/halaman.php [L]
+RewriteRule ^logout\.html$ admin/logout.php [L]
 RewriteRule ^sejarah_singkat\.html$ index.php?page=about/sejarah_singkat [L]
 RewriteRule ^visi_misi\.html$ index.php?page=about/visi_misi [L]
 RewriteRule ^fasilitas\.html$ index.php?page=about/fasilitas [L]

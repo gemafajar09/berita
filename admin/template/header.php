@@ -20,5 +20,6 @@
 
 <body id="page-top">
 <script src="<?= $url ?>asset/vendor/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
   <div id="wrapper">
