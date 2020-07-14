@@ -18,3 +18,8 @@ RewriteRule ^sistempendidikan\.html$ index.php?page=programpendidikan/sistempend
 RewriteRule ^administrasi_bisnis\.html$ index.php?page=programstudi/administrasi_bisnis [L]
 RewriteRule ^akutansi\.html$ index.php?page=programstudi/akutansi [L]
 RewriteRule ^manajemen_informasi\.html$ index.php?page=programstudi/manajemen_informasi [L]
+
+RewriteRule ^entry_sejarah_singkat\.html$ admin/halaman.php?page=about/sejarah_singkat/index [L]
+RewriteRule ^entry_visi_misi\.html$ admin/halaman.php?page=about/visi_misi/index [L]
+RewriteRule ^entry_fasilitas\.html$ admin/halaman.php?page=about/fasilitas/index [L]
+RewriteRule ^entry_organisasi\.html$ admin/halaman.php?page=about/organisasi/index [L]

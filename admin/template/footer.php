@@ -49,10 +49,18 @@
     })
   </script>
   <?php } ?>
+  <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
   <script src="<?= $url ?>asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?= $url ?>asset/vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="<?= $url ?>asset/js/sb-admin-2.min.js"></script>
-
+  <script>
+    $(document).ready(function() {
+    $('.summernote').summernote({
+      tabsize: 2,
+      height: 250
+    });
+  });
+  </script>
 </body>
 
 </html>

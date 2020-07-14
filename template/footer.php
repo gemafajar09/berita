@@ -6,7 +6,7 @@
           <div class="col-md-6"></div>
         </div>
         <i>
-          &copy; Politeknik LP3i Padang. By Memen Wahyudi, Gfr
+          &copy; Politeknik LP3i Padang.
         </i>  
     </footer>
   <script src="<?= $url ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

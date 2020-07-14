@@ -1,10 +1,10 @@
-<section class="content py-3">
+<section class="content py-5">
 	<div class="container py-3">
 		<div class="row">
 			<div class="col-md-8">
 				<div class="card">
 					<div class="card-body">
-						<h6 style="color:grey">FASILITAS</h6><hr class="border-warning">
+						<i style="color:grey">FASILITAS</i><hr class="border-warning">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

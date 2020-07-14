@@ -15,31 +15,31 @@
             <li class="nav-item  dropdown transparent">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="sejarah_singkat.html">SEJARAH SINGKAT</a>
-                    <a class="dropdown-item" href="visi_misi.html">VISI & MISI</a>
-                    <a class="dropdown-item" href="fasilitas.html">FASILITAS</a>
-                    <a class="dropdown-item" href="struktur_organisasi.html">STRUKTUR ORGANISASI</a>
+                    <a class="dropdown-item" href="sejarah_singkat.html">Sejarah Singkat</a>
+                    <a class="dropdown-item" href="visi_misi.html">Visi & Misi</a>
+                    <a class="dropdown-item" href="fasilitas.html">Fasilitas</a>
+                    <a class="dropdown-item" href="struktur_organisasi.html">Struktur Organisasi</a>
                 </div>
             </li>
             <li class="nav-item  dropdown transparent">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Program Pendidikan</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="link_macth.html">LINK AND MATCH</a>
-                    <a class="dropdown-item" href="sistempendidikan.html">SISTEM PENDIDIKAN</a>
-                    <a class="dropdown-item" href="polapendidikan.html">POLA PENDIDIKAN</a>
+                    <a class="dropdown-item" href="link_macth.html">Link And Match</a>
+                    <a class="dropdown-item" href="sistempendidikan.html">Sistem Pendidikan</a>
+                    <a class="dropdown-item" href="polapendidikan.html">Pola Pendidikan</a>
                 </div>
             </li>
             <li class="nav-item  dropdown transparent">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Program Studi</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="administrasi_bisnis.html">ADMINISTRASI BISNIS</a>
-                    <a class="dropdown-item" href="akutansi.html">AKUTANSI</a>
-                    <a class="dropdown-item" href="manajemen_informasi.html">MENAJEMEN INFORMATIKA</a>
+                    <a class="dropdown-item" href="administrasi_bisnis.html">Sistem Informasi Akuntansi </a>
+                    <a class="dropdown-item" href="akutansi.html">Komputer Bisnis Manajemen</a>
+                    <a class="dropdown-item" href="manajemen_informasi.html">Informatika Komputer</a>
                 </div>
             </li>   
-            <li class="nav-item dropdown transparent">
+            <!-- <li class="nav-item dropdown transparent">
                 <a class="nav-link" href="#">Blog</a>
-            </li>
+            </li> -->
         </ul>
         </div>
     </div>
