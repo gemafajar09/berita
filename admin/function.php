@@ -3,7 +3,7 @@ function registrasi($post)
 {
     global $con;
     $cek = $con->select('admin','*',['email' => $post['email']]);
-    if($cek > 0)
+    if($cek['email'] == $post['email'])
     {
         setcookie('error', "Maaf Akun Sudah Ada.!!", time() + 1, "/");
         header('location:auth.html');
