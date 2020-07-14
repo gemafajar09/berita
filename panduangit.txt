@@ -1,8 +1,22 @@
+berikut pandua untuk mengirim perubahan ke dalam github
+=======================================================
+* pastikan sudah menginstal git di laptop atau komputer
+* wajib menggunakan texteditor visual studio code agar mempermudah pekerjaan
+* pastikan xampp versi 7 ke atas
+- langkah langkah github
 git branch "buat nama branch sendiri"
 git checkout "masukan nama branch yang tadi dibuat"
 git add .
 git commit -m "buat nama comit sesuka hati anda"
 git push origin "nama branch yang anda buat tadi"
-
+- setelah perubahan dikirim lakukan checkout ke master terlebih dahulu
 git checkout master 
 git pull
+
+fitur yang digunakan dalam aplikasi
+===================================
+- unutk perintah sql tidak menggunakan mysql standar melainkan menggunakan medo dimana keaman data dan cara pengerjaan lebih cepat. untuk dokumentasi silahkan lihat di dokumentasi medoo.in
+- .htaccess untuk membuat content dinamis. bisa di lihat pada file .htaccess yang telah dibuat
+- menggunakan javaScript agar proses render lebih maksimal. untuk mengatasi server down
+- menggunakna library axios dimana nantinya untuk pengembangan website agar lebih mudah menggunakan sistem API.
+- menggunkana bootstrap versi 4. untuk dokumnetasi bisa langsung ke dokumentasi bootstrap atau bisa cek di w3schools.com 
