@@ -36,6 +36,34 @@
         </div>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#dua" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-database"></i>
+          <span>Program Pendidikan</span>
+        </a>
+        <div id="dua" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="entry_link_match.html">Link And Match</a>
+            <a class="collapse-item" href="entry_sistem_pendidikan.html">Sistem Pendidikan</a>
+            <a class="collapse-item" href="entry_pola_pendidikan.html">Pola Pendidikan</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#tiga" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-database"></i>
+          <span>Program Studi</span>
+        </a>
+        <div id="tiga" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="sia.html">Sistem Informasi Akuntansi</a>
+            <a class="collapse-item" href="kbm.html">Komputer Bisnis Manajemen</a>
+            <a class="collapse-item" href="ik.html">Informatika Komputer</a>
+          </div>
+        </div>
+      </li>
+
       <hr class="sidebar-divider d-none d-md-block">
       <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>

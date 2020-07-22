@@ -2,8 +2,7 @@
 	<div class="container py-3">
 		<div class="row">
 			<div class="col-md-8">
-				<div class="card">
-					<div class="card-body">
+				
 						<i>VISI DAN MISI</i><hr class="border-warning">
 						<?php
 							$data = $con->select('visi_misi','*');
@@ -11,9 +10,6 @@
 								echo "<p>".$a['visimisi']."</p>";
 							}
 						?>
-					</div>
-					
-				</div>
 			</div>
 			<div class="col-md-4">
 				<?php include "navigator.php" ?>

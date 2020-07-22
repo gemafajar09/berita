@@ -1,13 +1,13 @@
 <div class="card">
     <div class="card-header">
-        <i>Fasilitas</i>
+        <i>Komputer Bisnis Manajemen</i>
     </div>
     <div class="card-body">
         <table class="table table-stroped">
             <thead>
                 <tr>
                     <th style="width:30px">No.</th>
-                    <th>Fasilitas</th>
+                    <th>Komputer BIsnis Manajemen</th>
                     <th style="width:60px">Action</th>
                 </tr>
             </thead>
@@ -16,17 +16,17 @@
     </div>
 </div>
 
-<div class="modal" id="fasilitas">
+<div class="modal" id="tampil">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
 
       <div class="modal-header">
-        <h4 class="modal-title">Fasilitas</h4>
+        <h4 class="modal-title">Komputer Bisnis Manajemen</h4>
       </div>
 
       <div class="modal-body">
-        <textarea name="fasilitas" id="fasilitas_s" class="summernote"></textarea>
-        <input type="hidden" id="id_fasilitas">
+        <textarea name="kbm" id="kbm" class="summernote"></textarea>
+        <input type="hidden" id="id_kbm">
       </div>
 
       <div class="modal-footer">
@@ -41,13 +41,13 @@
 <script>
     function edit(id)
     {
-        axios.post('admin/about/fasilitas/edit_fasilitas.php',{
+        axios.post('admin/programstudi/kbm/edit_kbm.php',{
             'id':id
         }).then(function(res){
             var data = res.data
-            $('#fasilitas').modal()
-            $('#id_fasilitas').val(data.id_fasilitas)
-            $('.summernote').summernote("code", data.fasilitas)
+            $('#tampil').modal()
+            $('#id_kbm').val(data.id_kbm)
+            $('.summernote').summernote("code", data.visimisi)
         }).catch(function(err){
             console.log(err)
         })
@@ -55,15 +55,15 @@
 
     function simpan()
     {
-        var fasilitas = $('#fasilitas_s').val()
-        var id_fasilitas = $('#id_fasilitas').val()
-        axios.post('admin/about/fasilitas/simpan_fasilitas.php',{
-            'fasilitas': fasilitas,
-            'id': id_fasilitas
+        var kbm = $('#kbm').val()
+        var id_kbm = $('#id_kbm').val()
+        axios.post('admin/programstudi/kbm/simpan_kbm.php',{
+            'kbm': kbm,
+            'id': id_kbm
         }).then(function(res){
             kosong()
-            $('#fasilitas').modal('hide')
-            $('#isi').load('admin/about/fasilitas/data_fasilitas.php');
+            $('#tampil').modal('hide')
+            $('#isi').load('admin/programstudi/kbm/data_kbm.php');
         }).catch(function(err){
             console.log(err)
         })
@@ -71,9 +71,9 @@
 
     function kosong()
     {
-        $('#fasilitas').val()
-        $('#id_fasilitas').val()
+        $('#kbm').val()
+        $('#id_kbm').val()
     }
 
-    $('#isi').load('admin/about/fasilitas/data_fasilitas.php');
+    $('#isi').load('admin/programstudi/kbm/data_kbm.php');
 </script>

@@ -1,13 +1,13 @@
 <div class="card">
     <div class="card-header">
-        <i>Fasilitas</i>
+        <i>Pola Pendidikan</i>
     </div>
     <div class="card-body">
         <table class="table table-stroped">
             <thead>
                 <tr>
                     <th style="width:30px">No.</th>
-                    <th>Fasilitas</th>
+                    <th>Pola Pendidikan</th>
                     <th style="width:60px">Action</th>
                 </tr>
             </thead>
@@ -16,17 +16,17 @@
     </div>
 </div>
 
-<div class="modal" id="fasilitas">
+<div class="modal" id="tampil">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
 
       <div class="modal-header">
-        <h4 class="modal-title">Fasilitas</h4>
+        <h4 class="modal-title">Pola Pendidikan</h4>
       </div>
 
       <div class="modal-body">
-        <textarea name="fasilitas" id="fasilitas_s" class="summernote"></textarea>
-        <input type="hidden" id="id_fasilitas">
+        <textarea name="pola_pendidikan" id="pola_pendidikan" class="summernote"></textarea>
+        <input type="hidden" id="id_pola">
       </div>
 
       <div class="modal-footer">
@@ -41,13 +41,13 @@
 <script>
     function edit(id)
     {
-        axios.post('admin/about/fasilitas/edit_fasilitas.php',{
+        axios.post('admin/program/pola/edit_pola.php',{
             'id':id
         }).then(function(res){
             var data = res.data
-            $('#fasilitas').modal()
-            $('#id_fasilitas').val(data.id_fasilitas)
-            $('.summernote').summernote("code", data.fasilitas)
+            $('#tampil').modal()
+            $('#id_pola').val(data.id_pola)
+            $('.summernote').summernote("code", data.visimisi)
         }).catch(function(err){
             console.log(err)
         })
@@ -55,15 +55,15 @@
 
     function simpan()
     {
-        var fasilitas = $('#fasilitas_s').val()
-        var id_fasilitas = $('#id_fasilitas').val()
-        axios.post('admin/about/fasilitas/simpan_fasilitas.php',{
-            'fasilitas': fasilitas,
-            'id': id_fasilitas
+        var pola = $('#pola_pendidikan').val()
+        var id_pola = $('#id_pola').val()
+        axios.post('admin/program/pola/simpan_pola.php',{
+            'pola': pola,
+            'id': id_pola
         }).then(function(res){
             kosong()
-            $('#fasilitas').modal('hide')
-            $('#isi').load('admin/about/fasilitas/data_fasilitas.php');
+            $('#tampil').modal('hide')
+            $('#isi').load('admin/program/pola/data_pola.php');
         }).catch(function(err){
             console.log(err)
         })
@@ -71,9 +71,9 @@
 
     function kosong()
     {
-        $('#fasilitas').val()
-        $('#id_fasilitas').val()
+        $('#pola_pendidikan').val()
+        $('#id_pola').val()
     }
 
-    $('#isi').load('admin/about/fasilitas/data_fasilitas.php');
+    $('#isi').load('admin/program/pola/data_pola.php');
 </script>

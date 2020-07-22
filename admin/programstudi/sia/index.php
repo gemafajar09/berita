@@ -1,13 +1,13 @@
 <div class="card">
     <div class="card-header">
-        <i>Fasilitas</i>
+        <i>Sistem Informasi Akuntansi</i>
     </div>
     <div class="card-body">
         <table class="table table-stroped">
             <thead>
                 <tr>
                     <th style="width:30px">No.</th>
-                    <th>Fasilitas</th>
+                    <th>Sistem Informasi Akuntansi</th>
                     <th style="width:60px">Action</th>
                 </tr>
             </thead>
@@ -16,17 +16,17 @@
     </div>
 </div>
 
-<div class="modal" id="fasilitas">
+<div class="modal" id="tampil">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
 
       <div class="modal-header">
-        <h4 class="modal-title">Fasilitas</h4>
+        <h4 class="modal-title">Sistem Informasi Akuntansi</h4>
       </div>
 
       <div class="modal-body">
-        <textarea name="fasilitas" id="fasilitas_s" class="summernote"></textarea>
-        <input type="hidden" id="id_fasilitas">
+        <textarea name="sia" id="sia" class="summernote"></textarea>
+        <input type="hidden" id="id_sia">
       </div>
 
       <div class="modal-footer">
@@ -41,13 +41,13 @@
 <script>
     function edit(id)
     {
-        axios.post('admin/about/fasilitas/edit_fasilitas.php',{
+        axios.post('admin/programstudi/sia/edit_sia.php',{
             'id':id
         }).then(function(res){
             var data = res.data
-            $('#fasilitas').modal()
-            $('#id_fasilitas').val(data.id_fasilitas)
-            $('.summernote').summernote("code", data.fasilitas)
+            $('#tampil').modal()
+            $('#id_sia').val(data.id_sia)
+            $('.summernote').summernote("code", data.visimisi)
         }).catch(function(err){
             console.log(err)
         })
@@ -55,15 +55,15 @@
 
     function simpan()
     {
-        var fasilitas = $('#fasilitas_s').val()
-        var id_fasilitas = $('#id_fasilitas').val()
-        axios.post('admin/about/fasilitas/simpan_fasilitas.php',{
-            'fasilitas': fasilitas,
-            'id': id_fasilitas
+        var sia = $('#sia').val()
+        var id_sia = $('#id_sia').val()
+        axios.post('admin/programstudi/sia/simpan_sia.php',{
+            'sia': sia,
+            'id': id_sia
         }).then(function(res){
             kosong()
-            $('#fasilitas').modal('hide')
-            $('#isi').load('admin/about/fasilitas/data_fasilitas.php');
+            $('#tampil').modal('hide')
+            $('#isi').load('admin/programstudi/sia/data_sia.php');
         }).catch(function(err){
             console.log(err)
         })
@@ -71,9 +71,9 @@
 
     function kosong()
     {
-        $('#fasilitas').val()
-        $('#id_fasilitas').val()
+        $('#sia').val()
+        $('#id_sia').val()
     }
 
-    $('#isi').load('admin/about/fasilitas/data_fasilitas.php');
+    $('#isi').load('admin/programstudi/sia/data_sia.php');
 </script>

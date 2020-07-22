@@ -2,7 +2,7 @@
 <phpunit backupGlobals="false" bootstrap="vendor/autoload.php" verbose="true">
     <testsuites>
         <testsuite name="default">
-            <directory>tests</directory>
+            <divectory>tests</directory>
         </testsuite>
     </testsuites>
 

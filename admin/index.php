@@ -1,6 +1,17 @@
 <?php 
 include "../config/koneksi.php";
 include "./function.php"; 
+if(isset($_COOKIE['id_admin']))
+{
+  $user = $_COOKIE['id_admin'];
+}else{
+  $user = 0;
+}
+
+if($user != 0)
+{
+  header('location:halaman.html');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -12,27 +12,30 @@
     <div class="bg-circle-4 bg-circle"></div>
 </header>
 
-<section style="background-color:white">
+<section style="background-color:transparent">
     <div class="container py-3">
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" style="background-color: transparent;">
                     <div class="card-body text-center">
-                        <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                        <img src="<?= $url ?>image/jurusan/ik.svg" style="width:190px ;height:190px" class=""> 
+                        <p class="text-center">IK</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" style="background-color: transparent;">
                     <div class="card-body text-center">
-                        <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                        <img src="<?= $url ?>image/jurusan/sia.svg" style="width:190px ;height:190px" class=""> 
+                        <p class="text-center">SIA</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" style="background-color: transparent;">
                     <div class="card-body text-center">
-                        <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                        <img src="<?= $url ?>image/jurusan/kbm.svg" style="width:190px; height:190px" class="rounded-circle"> 
+                        <p class="text-center">KBM</p>
                     </div>
                 </div>
             </div>
@@ -51,11 +54,11 @@
                 <div class="row">
                     <div class="col-md-8">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, est odit voluptate possimus eius eos sint necessitatibus vitae libero. Expedita, quas incidunt? In consectetur totam perspiciatis, animi ipsum sapiente omnis.
+                        Adanya kesenjangan atau ketidakserasian antara pendidikan dengan dunia kerja merupakan masalah yang telah diantisipasi dan teratasi oleh Lembaga Pendidikan dan Pengembangan Profesi Indonesia (LP3I) sejak berdirinya pada tanggal 29 Maret 1989. LP3I memiliki prinsip dasar pendidikan yaitu harus dapat memenuhi tuntutan dan kebutuhan dunia kerja. 
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <img src="<?= $url ?>image/bg/1000.jpg" style="width:50%" class="rounded-circle" alt="Politeknik LP3i">
+                        <img src="<?= $url ?>image/polii.png" style="width:50%" class="rounded-circle" alt="Politeknik LP3i">
                     </div>
                 </div>
             </div>
@@ -72,17 +75,17 @@
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <a href="">
-                            <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                            <img src="<?= $url ?>image/jurusan/ik.svg" style="width:190px; height:190px"> 
                         </a>
                     </div>
                     <div class="col-md-4 text-center">
                         <a href="">
-                            <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                            <img src="<?= $url ?>image/jurusan/sia.svg" style="width:190px; height:190px"> 
                         </a>
                     </div>
                     <div class="col-md-4 text-center">
                         <a href="">
-                            <img src="<?= $url ?>image/test.jpg" style="width:190px" class="rounded-circle"> 
+                            <img src="<?= $url ?>image/jurusan/kbm.svg" style="width:190px; height:190px"> 
                         </a>
                     </div>
                 </div>
@@ -138,11 +141,11 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, est odit voluptate possimus eius eos sint necessitatibus vitae libero. Expedita, quas incidunt? In consectetur totam perspiciatis, animi ipsum sapiente omnis.
+                                    -
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <img src="<?= $url ?>image/bg/1000.jpg" style="width:50%" class="rounded-circle" alt="Politeknik LP3i">
+                                <img src="<?= $url ?>image/polii.png" style="width:50%" class="rounded-circle" alt="Politeknik LP3i">
                             </div>
                         </div>
                     </div>

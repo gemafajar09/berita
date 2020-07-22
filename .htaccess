@@ -23,3 +23,13 @@ RewriteRule ^entry_sejarah_singkat\.html$ admin/halaman.php?page=about/sejarah_s
 RewriteRule ^entry_visi_misi\.html$ admin/halaman.php?page=about/visi_misi/index [L]
 RewriteRule ^entry_fasilitas\.html$ admin/halaman.php?page=about/fasilitas/index [L]
 RewriteRule ^entry_organisasi\.html$ admin/halaman.php?page=about/organisasi/index [L]
+
+RewriteRule ^entry_link_match\.html$ admin/halaman.php?page=program/link_match/index [L]
+RewriteRule ^simpan_link\.html$ admin/halaman.php?page=program/link_match/simpan_link [L]
+
+RewriteRule ^entry_pola_pendidikan\.html$ admin/halaman.php?page=program/pola/index [L]
+RewriteRule ^entry_sistem_pendidikan\.html$ admin/halaman.php?page=program/sistem/index [L]
+
+RewriteRule ^ik\.html$ admin/halaman.php?page=programstudi/ik/index [L]
+RewriteRule ^sia\.html$ admin/halaman.php?page=programstudi/sia/index [L]
+RewriteRule ^kbm\.html$ admin/halaman.php?page=programstudi/kbm/index [L]

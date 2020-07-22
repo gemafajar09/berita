@@ -10,6 +10,7 @@ function registrasi($post)
     }else{
         $pwd = password_hash($post['password'], PASSWORD_DEFAULT);
         $data = array(
+            'id_admin' => $post['id_admin'],
             'nama' => $post['nama'],
             'email' => $post['email'],
             'password' => $pwd,
